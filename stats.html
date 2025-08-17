@@ -27,26 +27,9 @@
 
         <h2>By author</h2>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Author</th>
-                    <th>Articles</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for author in stats.entriesByAuthor %}
-                <tr>
-                    <td>{{ author[0] }}</td>
-                    <td>{{ author[1] }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-
         <section class="articles-by-author">
             {% for author in stats.entriesByAuthor %}
-            <section class="author-{{ author[0] | downcase }}" style="width:{{ author[1] | asPercent: stats.totalEntries }}">{{ author[0] }} ({{ author[1] | asPercent: stats.totalEntries }})</section>
+            <section class="author-{{ author[0] | downcase }}" style="width:{{ author[1] | asPercent: stats.totalEntries }}">{{ author[1] }} ({{ author[0] }})</section>
             {% endfor %}
         </section>
 
