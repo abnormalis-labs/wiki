@@ -11,6 +11,20 @@
     }
 }
 
+:where(main ol,main ul) {
+  padding-inline-start: 0;
+}
+
+@media (max-width: 600px) {
+  article, main {
+    padding: 0 1rem;
+  }
+
+  header {
+    margin-top: 8rem;
+  }
+}
+
 hr {
   border: 0;
   border-bottom: 1px solid #ddd;
@@ -72,6 +86,10 @@ header h1 {
 .entry-month {
   margin: 32px 0 16px 0;
   text-align: center;
+}
+
+.entries-list {
+  padding: 0 33px;
 }
 
 .entries-list li {
