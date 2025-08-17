@@ -39,7 +39,6 @@ export default function(eleventyConfig) {
         .map((count, year) => [year, count])
         .value()
     };
-    console.log({ data });
     return data;
   });
 };

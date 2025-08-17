@@ -7,7 +7,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx @11ty/eleventy --serve",
+    "add": "node ./scripts/add-article.js"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
