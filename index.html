@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <title>Clandestapedia</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Clandestapedia</h1>
+        <p class="subtitle">weird Wikipedia articles, curated by TW and JK</p>
+        <nav>
+          <ul>
+            <li><a class="active" href="/">Index</a></li>
+            <li><a href="/stats">Stats</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      {% for month in entriesByYearMonth %}
+      <h2 class="entry-month">{{ month[0] }}</h2>
+
+      <ul class="entries-list">
+          {% for entry in month[1] %}
+          <li class="author-{{ entry.author | downcase }}">
+            <a href="{{ entry.url }}" target="_blank">{{ entry.title }}</a>
+            <p>{{ entry.description }}</p>
+            <span class="author author-{{ entry.author | downcase }}">{{ entry.author }}</span>
+          </li>
+          {% endfor %}
+      </ul>
+
+      {% endfor %}
+      <footer></footer>
+    </main>
+  </body>
+</html>
