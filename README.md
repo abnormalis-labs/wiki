@@ -1,4 +1,4 @@
-# clandestapedia
+# wiki abnormalis
 
 A collection of interesting Wikipedia articles
 
@@ -22,7 +22,7 @@ Example:
 ```
 $ npm run add
 
-> clandestapedia@1.0.0 add
+> wiki@1.0.0 add
 > node ./scripts/add-article.js
 
 URL: https://en.wikipedia.org/wiki/Snail_racing
