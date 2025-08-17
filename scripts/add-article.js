@@ -47,7 +47,7 @@ function articleToTitle(article) {
         description,
         author,
     });
-    console.log(`Article added: ${title}`);
+    console.log(`✓ Article added: ${title}`);
 
     await fs.promises.writeFile("./_data/entries.json", JSON.stringify(entries, null, 2));
   } catch(err) {
