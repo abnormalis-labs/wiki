@@ -224,3 +224,26 @@ hr {
 
 .articles-by-author .author-jk {background-color: #ffffff }
 .articles-by-author .author-tw { background-color: #f7f7f7 }
+
+.github-link {
+  padding: 0 8px;
+  font-family: Menlo, Consolas, Monaco, Adwaita Mono, Liberation Mono, Lucida Console, monospace;
+  display: inline-flex;
+  border: 1px solid transparent;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.github-link:hover {
+  background: #f7f7f7;
+  border-color: #eee;
+}
+
+.github-link svg {
+  width: 14px;
+  margin-right: 2px;
+}

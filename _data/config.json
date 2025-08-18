@@ -1,5 +1,9 @@
 {
     "site": {
         "title": "Wiki Abnormalis"
+    },
+    "meta": {
+        "gh_repo_link": "https://github.com/abnormalis-labs/wiki",
+        "gh_repo_title": "abnormalis-labs/wiki"
     }
 }
