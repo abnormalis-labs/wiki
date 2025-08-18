@@ -216,10 +216,10 @@ hr {
 }
 
 .articles-by-author > section:first-child {
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #ddd;
 }
 .articles-by-author > section:last-child {
-  border-left: 1px solid #ccc;
+  border-left: 1px solid #ddd;
 }
 
 .articles-by-author .author-jk {background-color: #ffffff }
