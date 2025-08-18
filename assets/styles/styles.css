@@ -36,6 +36,9 @@ main {
 
 header {
   margin-bottom: 4rem;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
 }
 
 header h1:before,
