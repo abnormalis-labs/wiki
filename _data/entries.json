@@ -117,5 +117,26 @@
     "title": "Turner Doomsday Video",
     "description": "End of world broadcast for CNN",
     "author": "JK"
+  },
+  {
+    "date": "2025-08-21",
+    "url": "https://en.wikipedia.org/wiki/Flannan_Isles_Lighthouse",
+    "title": "Flannan Isles Lighthouse",
+    "description": "Lighthouse off the northwest coast of Scotland",
+    "author": "TW"
+  },
+  {
+    "date": "2025-08-21",
+    "url": "https://en.wikipedia.org/wiki/Nominative_determinism",
+    "title": "Nominative determinism",
+    "description": "Correlation of name and career",
+    "author": "TW"
+  },
+  {
+    "date": "2025-08-22",
+    "url": "https://en.wikipedia.org/wiki/Missile_gap",
+    "title": "Missile gap",
+    "description": "Cold War term used in the United States",
+    "author": "TW"
   }
 ]
