@@ -187,5 +187,12 @@
     "title": "Cow tipping",
     "description": "Urban legend",
     "author": "TW"
+  },
+  {
+    "date": "2025-08-24",
+    "url": "https://en.wikipedia.org/wiki/Overstrike",
+    "title": "Overstrike",
+    "description": "Technique of printing two characters atop one another",
+    "author": "JK"
   }
 ]
