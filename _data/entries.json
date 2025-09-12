@@ -229,5 +229,19 @@
     "title": "Infrasound",
     "description": "Vibrations with frequencies lower than 20 hertz",
     "author": "TW"
+  },
+  {
+    "date": "2025-09-12",
+    "url": "https://en.wikipedia.org/wiki/Long-term_nuclear_waste_warning_messages",
+    "title": "Long-term nuclear waste warning messages",
+    "description": "Messages to deter human intrusion at nuclear waste repositories in the far future",
+    "author": "TW"
+  },
+  {
+    "date": "2025-09-12",
+    "url": "https://en.wikipedia.org/wiki/Anti-NMDA_receptor_encephalitis",
+    "title": "Anti-NMDA receptor encephalitis",
+    "description": "Rare disease which results in brain inflammation",
+    "author": "TW"
   }
 ]
