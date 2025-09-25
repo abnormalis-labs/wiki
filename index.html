@@ -22,10 +22,10 @@
 
       <ul class="entries-list">
           {% for entry in month[1] %}
-          <li class="author-{{ entry.author | downcase }}">
+          <li>
             <a href="{{ entry.url }}" target="_blank">{{ entry.title }}</a>
             <p>{{ entry.description }}</p>
-            <span class="author author-{{ entry.author | downcase }}">{{ entry.author }}</span>
+            <span class="author">{{ entry.author }}</span>
           </li>
           {% endfor %}
       </ul>
