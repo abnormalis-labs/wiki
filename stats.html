@@ -27,12 +27,25 @@
 
         <h2>By author</h2>
 
-        <section class="articles-by-author">
-            {% for author in stats.entriesByAuthor %}
-            <section class="author-{{ author[0] | downcase }}" style="width:{{ author[1] | asPercent: stats.totalEntries }}">{{ author[1] }} ({{ author[0] }})</section>
-            {% endfor %}
-        </section>
-
+        <table>
+            <thead>
+                <tr>
+                    <th>Author</th>
+                    <th>Count</th>
+                    <th>Share of total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for author in stats.entriesByAuthor %}
+                <tr>
+                    <td>{{ author[0] }}</td>
+                    <td>{{ author[1] }}</td>
+                    <td>{{ author[1] | asPercent: stats.totalEntries }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        
         <hr/>
 
         <h2>By year</h2>

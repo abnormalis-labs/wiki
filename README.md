@@ -16,7 +16,9 @@ npm i && npm run dev
 npm run add
 ```
 
-Just give the CLI tool the URL of the Wikipedia article to add. It will query the Wikipedia API for the title and description (just press Enter to accept defaults in parentheses)
+Just give the CLI tool the URL of the Wikipedia article to add. It will query the Wikipedia API for the title and description (just press Enter to accept defaults in parentheses).
+
+Then push a Pull Request for your new entry
 
 Example:
 ```

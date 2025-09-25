@@ -7,7 +7,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addFilter("print", JSON.stringify);
   eleventyConfig.addFilter("asPercent", function(value, total) {
     if (total === 0) return "0%";
-    return ((value / total) * 100).toFixed(2) + "%";
+    return ((value / total) * 100).toFixed(0) + "%";
   });
 
   eleventyConfig.addPassthroughCopy({
